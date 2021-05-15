@@ -1,0 +1,77 @@
+.login_page {
+  text-align: center;
+}
+
+.login_bar {
+  background-color: #c4c4c479;
+  padding: 0.05rem;
+  margin-bottom: 5rem;
+}
+
+.login_nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin: 2em;
+}
+
+.login_nav li {
+  display: inline;
+  margin: 3em;
+}
+
+/* FB button and login button */
+.button {
+  width: 70%;
+  height: 2.5em;
+  background-color: #44a5eb;
+  color: white;
+  border-style: none;
+  border-radius: 0.25em;
+  padding: 0.25em;
+  margin-bottom: 2.5em;
+}
+/* Inputs */
+
+.formInput {
+  width: 70%;
+  height: 2.5em;
+  border-color: 1px solid #cfcfcf;
+  margin: 0.25em;
+}
+
+/* --- OR -- divider */
+
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 2.5em;
+  margin-right: 3.5em;
+  margin-left: 3.5em;
+}
+
+.separator::before,
+.separator::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #cfcfcf;
+}
+
+.separator:not(:empty)::before {
+  margin-right: 0.25em;
+}
+
+.separator:not(:empty)::after {
+  margin-left: 0.25em;
+}
+
+.sign_up_text{
+  display: inline;
+}
+
+.sign_up{
+  color:  #44a5eb;
+  font-weight: bold;
+  display: inline;
+}
